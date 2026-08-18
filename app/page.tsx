@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import utilStyle from "./utils.module.css";
 import { getPostsData } from './lib/post';
+import Header from "./ui/header";
 
 export default async function Home() {
   //SSGの場合
@@ -11,9 +12,10 @@ export default async function Home() {
 
   return (
     <>
+    <Header home/>
       <section className={utilStyle.headingMd}>
         <p>
-          私はフルスタックエンジニアです。
+          フロントエンド勉強中です。
         </p>
       </section>
 

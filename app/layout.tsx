@@ -29,13 +29,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body className={styles.container}>
-        <header className={styles.header}>
-          <Image src="/images/profile.jpg" alt="Site logo" width={100} height={100} className={utilStyles.borderCircle}/>
-          <h1 className={utilStyles.heading2Xl}>{name}</h1>
-        </header>
         {children}
         </body>
     </html>
