@@ -15,7 +15,7 @@ export default async function Home() {
     <Header home/>
       <section className={utilStyle.headingMd}>
         <p>
-          フロントエンド勉強中です。
+          フロントエンド勉強中。好きなフレームワークはReact / Next.jsです。
         </p>
       </section>
 
